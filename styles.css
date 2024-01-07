@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body{
+  width: 860px;
+}
+header{
+  position: fixed;
+  height: 150px;
+  width: 860px;
+  background-color: white;
+}
+.header{
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: black
+  
+}
+.therapist a{
+  text-decoration: none;
+  color: rgb(170,214,193);
+}
+.elise a{
+  font-size:29px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: black;
+}
+.login{
+  color: rgb(170,214,193);
+  text-align: end;
+  justify-content: center;
+}
+.login a{
+  text-decoration: none;
+  color: rgb(170,214,193);
+}
+
+.nav ul
+{
+list-style: none;
+display: flex;
+justify-content: space-around;
+
+}
+.nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+.surati{
+  width: 100%;
+  margin-top: 150px;
+
+  object-fit: cover;
+}
+div.text h1 {
+  font-size: 70px;
+  color: white;
+  font-weight: 600;
+  padding-left: 50px;
+}
+
+div .text h3 {
+  font-size: 23px;
+  color: white;
+  padding-left: 50px;
+  font-weight: 400;
+}
+
+section div.text {
+  background-color: rgb(170,214,193);
+  width: 860px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section .text {
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+p{
+  justify-content: center;
+  height: auto;
+  width: 250px;
+}
+.info{
+  padding-top: 50px;
+  width: 860px;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin: auto;
+  font-size: 18px;
+}
+.contact{
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background-color: rgb(170, 214, 193); /* Set background color here */
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: rgb(170, 214, 193); /* Set background color here */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(178, 220, 200);
+}
+
+footer {
+  background-color: rgb(170,214,193);
+  color: white;
+  text-align: center;
+  padding: 10px;
+
+  width: 200%;
+}
+.footer a{
+  color: white;
+}
